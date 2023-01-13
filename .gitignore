@@ -1,12 +1,24 @@
-# Mac
-.DS_Store
-._*
+# Python
+*.pyc
+*~
+__pycache__
 
-#IntelliJ
-.idea
-
-# Secrets
+# Env
 .env
+myvenv/
+venv/
 
-# Databases
-.sqlite3
+# Database
+db.sqlite3
+
+# Static folder at project root
+/static/
+
+# macOS
+._*
+.DS_Store
+.fseventsd
+.Spotlight-V100
+
+#Pycharm/IntelliJ
+.idea
